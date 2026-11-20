@@ -1,0 +1,75 @@
+Qty,Designator,Value,Description / MPN,Footprint,LCSC,Fitted,Assembly,Note
+13,"C1,C25,C26,C50,C51,C65,C66,C82,C84,C86,C88,C90,C93",100nF,0603 X7R 16V,C_0603_1608Metric,C14663,yes,SMT,Battery divider filter; Hub VDD5; Reset RC; U2 V+; U2 V-; U3 V+; U3 V-; U4 V+; U4 V-; U6 IN; U7 IN; VD18; VD33
+21,"C10,C11,C12,C13,C14,C15,C23,C28,C30,C31,C40,C41,C70,C71,C72,C109,C111,C115,C117,C118,C119",1uF,0603 X7R 16V,C_0603_1608Metric,C15849,yes,SMT,"ADC3- AC ground (pseudo-differential); Aux ADC AC coupling; Boost OUT HF, at the VOUT pins; Flying cap; NCP163 IN; RA RX AC coupling; RA RX return AC coupling; RB RX AC coupling; RB RX return AC coupling; TLV755 IN; TLV755 OUT; TUSB321 VDD; U1 VCCAD1; U1 VCCAD2; U1 VCCDA1; U1 VCCDA2; U1 VDD1; U1 VDD2; Unused ADC2 inputs terminated; Unused ADC6 inputs terminated"
+22,"C16,C17,C18,C19,C20,C21,C22,C27,C35,C45,C67,C68,C83,C85,C87,C91,C94,C101,C102,C104,C110,C112",10uF,0805 X7R 16V,C_0805_2012Metric,C15850,yes,SMT,AC coupling; Boost IN; CP output; Charger BAT; Charger OUT; Hub VDD5; LM27762 VIN; Radio A VBUS; Radio B VBUS; TX DC block: radio mic bias sees only this cap; U1 VCC bulk (AD side); U1 VCC bulk (DA side); U1 VDD bulk; U4 V+ bulk; U4 V- bulk; VCOMAD; VCOMDA; VD18 (datasheet 10 uF); VD33 (datasheet 10 uF); VREFAD1; VREFAD2
+7,"C24,C32,C33,C34,C42,C43,C44",1nF,FH 0603CG102J500NT (C0G 50V 5%; alt Samsung CL10C102JB8NNNC C163508),C_0603_1608Metric,C1636,yes,SMT,Differential RF filter; TX LPF (~32 kHz); TX LPF mirror
+1,C29,2.7nF,Walsin 0603N272J500CT (C0G 50V 5%),C_0603_1608Metric,C388043,yes,SMT,ADC input RC / RF filter
+4,"C60,C61,C62,C63",330pF,Samsung CL10C331JB8NNNC (C0G 50V 5%),C_0603_1608Metric,C1664,yes,SMT,HP LPF; HP LPF mirror
+2,"C80,C81",10pF,Samsung CL10C100JB8NNNC (C0G 50V 5%),C_0603_1608Metric,C1634,DNP,SMT,Optional crystal load
+2,"C100,C116",4.7uF,0805 X7R 16V,C_0805_2012Metric,C1779,yes,SMT,Charger IN; NCP163 OUT
+4,"C103,C105,C106,C107",22uF,0805 X7R 16V,C_0805_2012Metric,C45783,yes,SMT,Boost IN (datasheet 22 uF); Boost OUT
+1,C108,10nF,0603 X7R 16V,C_0603_1608Metric,C57112,yes,SMT,Soft start (datasheet 10 nF)
+2,"C113,C114",2.2uF,0603 X7R 16V,C_0603_1608Metric,C23630,yes,SMT,OUT+; OUT-
+1,C120,18pF,Samsung CL10C180JB8NNNC (C0G 50V 5%),C_0603_1608Metric,C1647,yes,SMT,Feed-forward (datasheet example)
+1,D1,B5819W,B5819W Schottky 1 A 40 V,D_SOD-123,C8598,yes,SMT,Blocks Teensy USB back-feed; still cut VUSB-VIN pad
+2,"D2,D3",BAV99,BAV99 dual diode,SOT-23,C2500,yes,SMT,Mic input clamp to rails
+6,"D10,D11,D12,D20,D21,D22",PESD5V0L1BA,Nexperia PESD5V0L1BA bidirectional,D_SOD-323,C85380,yes,SMT,ESD
+2,"D13,D23",SMF15CA,"SMF15CA bidirectional TVS (VRWM 15 V, VC 24.4 V @ 8.2 A)",D_SOD-123F,C2890424,yes,SMT,Across PTT contact; clamps well under AQY212GS 60 V
+1,D30,SMF5.0A,SMF5.0A TVS 5 V,D_SOD-123F,C78395,yes,SMT,USB-C VBUS surge
+1,D31,RED,0805 red LED,LED_0805_2012Metric,C84256,yes,SMT,Charging indicator
+1,D32,GREEN,0805 green LED,LED_0805_2012Metric,C2297,yes,SMT,Power on
+1,J1,"Teensy 4.0 left (GND,0..12)",1x14 2.54 mm female socket,PinSocket_1x14_P2.54mm_Vertical,choose,yes,hand-solder,Hand-solder; Teensy 4.0 USB toward top edge
+1,J2,"Teensy 4.0 right (VIN,GND,3V3,23..13)",1x14 2.54 mm female socket,PinSocket_1x14_P2.54mm_Vertical,choose,yes,hand-solder,Teensy 3V3 output deliberately unused
+1,J3,USB HOST (wire to Teensy pads),1x3 2.54 mm header,PinHeader_1x03_P2.54mm_Vertical,choose,yes,hand-solder,Two short wires from the Teensy 4.0 underside host pads
+1,J10,RADIO A (JST-GH 10),JST BM10B-GHS-TBT,JST_GH_BM10B-GHS-TBT_1x10-1MP_P1.25mm_Vertical,C2983879,yes,hand-solder,Hand-solder
+1,J11,RADIO B (JST-GH 10),JST BM10B-GHS-TBT,JST_GH_BM10B-GHS-TBT_1x10-1MP_P1.25mm_Vertical,C2983879,yes,hand-solder,Hand-solder
+1,J12,HEADSET (JST-GH 6),JST BM06B-GHS-TBT,JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical,C189892,yes,hand-solder,Hand-solder
+1,J13,FRONT PANEL (2x8 1.27),2x8 1.27 mm header,PinHeader_2x08_P1.27mm_Vertical,choose,yes,hand-solder,IDC ribbon to front panel
+1,J14,AUX (2x8 2.54),2x8 2.54 mm header,PinHeader_2x08_P2.54mm_Vertical,choose,yes,hand-solder,Expansion: Teensy spares + codec spares
+1,J15,USB-C 5V IN,GCT USB4125-GF-A-0190 (power only),USB_C_Receptacle_GCT_USB4125-xx-x-0190_6P_TopMnt_Horizontal,C5246813,yes,hand-solder,
+1,J16,18650 + NTC (Micro-Fit 3.0),Molex 43650-0315 Micro-Fit 3.0 vertical,Molex_Micro-Fit_3.0_43650-0315_1x03_P3.00mm_Vertical,choose,yes,hand-solder,"Protected 18650 with 10k NTC: 1 = +, 2 = -, 3 = NTC. Rated 5 A/contact (18-20 AWG)"
+2,"K1,K2",AQY212GS,Panasonic AQY212GS PhotoMOS,SOP-4_3.8x4.1mm_P2.54mm,C719745,yes,SMT,Isolated PTT contact (AC/DC)
+1,L1,1.0uH,"Coilcraft XAL4020-102MEC (1.0 uH, Isat 8.7 A); alt Bourns SRP4020TA-1R0M",L_Coilcraft_XAL4020-XXX,C4555951,yes,SMT,Isat must exceed the 6 A max current limit
+3,"Q1,Q2,Q3",2N7002,2N7002 N-MOSFET,SOT-23,C8545,yes,SMT,Inverter: EN2 = NOT OUT1; PhotoMOS LED driver
+5,"R1,R2,R3,R4,R5",33,0603 1% resistor,R_0603_1608Metric,C23140,yes,SMT,"BCLK series, near Teensy; FSYNC series, near Teensy; MCLK series, near Teensy; TDM data from codec, near codec; TDM data to codec, near Teensy"
+3,"R6,R7,R133",2.2k,0603 1% resistor,R_0603_1608Metric,C4190,yes,SMT,I2C pull-up; Power LED
+13,"R8,R22,R23,R30,R31,R50,R51,R90,R91,R111,R113,R114,R115",10k,0603 1% resistor,R_0603_1608Metric,C25804,yes,SMT,Aux series; Expander INT pull-up; Input bias path; OVCJ pull-up; PWRJ pull-up: ports off until the hub enables them; RA RX return series; RA RX series; RB RX return series; RB RX series; Reset pull-up; VBUSM divider
+18,"R9,R10,R26,R27,R32,R33,R43,R52,R53,R63,R80,R92,R93,R121,R128,R130,R132,R134",100k,0603 1% resistor,R_0603_1608Metric,C25803,yes,SMT,ADC bias; ADC3+ bias; ADC3- bias; Amp held off until firmware drives HP_EN (Teensy pin 6); Battery divider; EN2 pull-up; FB bottom (<= 100k per datasheet); FB+ bottom; FB- bottom; Gate pull-down: PTT off at reset; OUT1 pull-up
+2,"R20,R21",47,0603 1% resistor,R_0603_1608Metric,C23182,yes,SMT,Input stabilisation; Input stabilisation (datasheet 47 ohm)
+1,R24,169,"Panasonic ERJ-3EKF1690V (1%, 100 ppm)",R_0603_1608Metric,C403019,yes,SMT,RG: gain ~60 (36 dB)
+1,R25,DNP,not fitted,R_0603_1608Metric,choose,DNP,SMT,Gain trim: fit a RESISTOR in parallel with R24 for more gain (never 0 ohm)
+7,"R28,R39,R42,R59,R62,R123,R125",1k,0603 1% resistor,R_0603_1608Metric,C21190,yes,SMT,ADC input RC (with C29: ~59 kHz); CHG LED; Gate series; ISET: 890/1k = 0.89 A charge; TX attenuator series
+2,"R34,R54",2.2k,0603 1% resistor,R_0603_1608Metric,C4190,DNP,SMT,Optional RX divider with the 2x10k series R (~-20 dB) for speaker-level sources
+4,"R35,R37,R55,R57",20k,"Yageo RT0603BRD0720KL (0.1%, 25 ppm)",R_0603_1608Metric,C723637,yes,SMT,TX diff amp input
+4,"R36,R38,R56,R58",4.99k,"Yageo RT0603BRD074K99L (0.1%, 25 ppm)",R_0603_1608Metric,C723532,yes,SMT,TX diff amp feedback; TX diff amp reference leg
+4,"R40,R60,R102,R103",100,0603 1% resistor,R_0603_1608Metric,C22775,yes,SMT,Aux DAC series; TX attenuator shunt (~64 mV FS); radio-specific
+4,"R41,R61,R74,R79",10,0603 1% resistor,R_0603_1608Metric,C22859,yes,SMT,Ground-lift resistor; Output isolation
+2,"R44,R64",330,0603 1% resistor,R_0603_1608Metric,C23138,yes,SMT,PhotoMOS LED ~6 mA
+3,"R45,R65,R81",0,0603 1% resistor,R_0603_1608Metric,C21189,yes,SMT,Ground tie: remove to lift RA port ground to 10 ohm; Ground tie: remove to lift RB port ground to 10 ohm; Headset shield tie (lift-able)
+4,"R70,R72,R75,R77",15k,"Yageo RT0603BRD0715KL (0.1%, 25 ppm)",R_0603_1608Metric,C326733,yes,SMT,HP diff amp input
+4,"R71,R73,R76,R78",11k,"FH TD03G1102BT (0.1%, 25 ppm; alt Yageo RT0603BRD0711KL)",R_0603_1608Metric,C667038,yes,SMT,HP diff amp feedback; HP diff amp reference leg
+1,R110,2.7k,0603 1% resistor,R_0603_1608Metric,C13167,yes,SMT,REXT 2.7k 1% (datasheet)
+1,R112,4.7k,0603 1% resistor,R_0603_1608Metric,C23162,yes,SMT,VBUSM divider (~3.4 V)
+2,"R116,R117",45.3k,"Viking ARG03FTC4532 (1% thin film, 25 ppm; alt Bourns CR0603-FX-4532ELF C49675646)",R_0603_1608Metric,C218038,yes,SMT,"RILIM 45.3k 1%: 0.519 A min (R+1%) / 0.644 A max (R-1%), TPS2552/3 datasheet eq. 1 and 3"
+1,R120,910k,Bourns CR0603-FX-9103ELF (1%; alt RESI AECR0603F910KK9 C352285),R_0603_1608Metric,C203887,yes,SMT,VBUS_DET (datasheet 855-920k)
+1,R122,1.24k,Vishay CRCW06031K24FKEA (1%; alt FH RS-03K1241FT C321702),R_0603_1608Metric,C843923,yes,SMT,ILIM: 1610/1.24k = 1.30 A (stays under a 1.5 A advertisement with tolerance)
+1,R124,10k,0603 1% resistor,R_0603_1608Metric,C25804,DNP,SMT,Fit ONLY if the cell has no NTC (disables temperature protection)
+1,R126,1M,0603 1% resistor,R_0603_1608Metric,C22935,yes,SMT,Keeps the converter off when switched off
+1,R127,422k,RALEC RTT034223FTP (1%),R_0603_1608Metric,C103627,yes,SMT,FB: 1.0 x (1 + 422k/100k) = 5.22 V
+1,R129,294k,RALEC RTT032943FTP (1%; alt Vishay CRCW0603294KFKEA C2092132),R_0603_1608Metric,C13177,yes,SMT,1.2 x (1 + 294k/100k) = 4.73 V (headroom from 5.22 V)
+1,R131,287k,LIZ CR0603FA2873G (1%),R_0603_1608Metric,C100934,yes,SMT,-1.22 x (1 + 287k/100k) = -4.72 V
+1,SW1,POWER,C&K PCM12SMTR slide switch,SW_SPDT_PCM12,C221841,yes,hand-solder,On/off; charging works when off
+1,U1,PCM3168APAPR,TI PCM3168APAPR,HTQFP-64-1EP_10x10mm_P0.5mm_EP8x8mm_Mask4.4x4.4mm_ThermalVias,C529289,yes,SMT,"I2C addr 0x44 (ADR1=ADR0=0), MODE=GND (I2C)"
+1,U2,INA217AIDWR,TI INA217AIDWR,SOIC-16W_7.5x10.3mm_P1.27mm,C1849416,yes,SMT,"Mic preamp, G = 1 + 10k/RG"
+1,U3,OPA1678IDR,TI OPA1678IDR,SOIC-8_3.9x4.9mm_P1.27mm,C192421,yes,SMT,Radio A/B TX drivers
+1,U4,OPA1622IDRCR,TI OPA1622IDRCR,Texas_S-PVSON-N10,C2876559,yes,SMT,Headset driver
+1,U5,FE1.1S-BSOP28BCN,Terminus FE1.1S-BSOP28BCN,SSOP-28_3.9x9.9mm_P0.635mm,C9359,yes,SMT,Self-powered (BUSJ high); ports 3/4 unused
+2,"U6,U7",TPS2552DBVR,"TI TPS2552DBVR adjustable limit, ACTIVE-LOW EN",SOT-23-6,C46506,yes,SMT,Radio A VBUS: on when hub PWRJ is low; ganged with the other port; Radio B VBUS: on when hub PWRJ is low; ganged with the other port
+2,"U8,U9",USBLC6-2SC6,ST USBLC6-2SC6,SOT-23-6,C7519,yes,SMT,Radio A USB ESD; Radio B USB ESD
+1,U10,BQ24074RGTR,TI BQ24074RGTR,VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm_ThermalVias,C54313,yes,SMT,500 mA by default; ILIM (1.3 A) only when the USB-C source advertises >= 1.5 A
+1,U11,TPS61230DRCR,TI TPS61230DRCR,Texas_S-PVSON-N10_ThermalVias,C139626,yes,SMT,"Sync boost, 4 A min valley limit, true load disconnect"
+1,U12,LM27762DSSR,TI LM27762DSSR,WSON-12-1EP_3x2mm_P0.5mm_EP1x2.65_ThermalVias,C473398,yes,SMT,+/-5.0 V for INA217 / op-amps
+1,U13,NCP163ASN500T1G,onsemi NCP163ASN500T1G,SOT-23-5,C603657,yes,SMT,Codec analog 5.0 V
+1,U14,TLV75533PDBVR,TI TLV75533PDBVR,SOT-23-5,C404027,yes,SMT,3.3 V digital
+1,U15,TUSB321RWBR,TI TUSB321RWBR,Texas_X2QFN-12_1.6x1.6mm_P0.4mm,C139392,yes,SMT,UFP: presents Rd; OUT1 low = source offers >= 1.5 A
+1,Y1,12MHz,"YXC X322512MSB4SI (12 MHz 3225, 20 pF, +/-10 ppm)",Crystal_SMD_3225-4Pin_3.2x2.5mm,C9002,yes,SMT,FE1.1s has internal load caps

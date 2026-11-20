@@ -1,0 +1,43 @@
+Ref,Value,Footprint,KiCad rot,JLC offset,CPL rot,Source,Pin-1 check in JLC preview
+D1,B5819W,D_SOD-123,180,0,180,KiCad as-is,cathode band = pad 1 (left at 0 deg)
+D10,PESD5V0L1BA,D_SOD-323,90,0,90,KiCad as-is,cathode band = pad 1 (left at 0 deg)
+D11,PESD5V0L1BA,D_SOD-323,270,0,270,KiCad as-is,cathode band = pad 1 (left at 0 deg)
+D12,PESD5V0L1BA,D_SOD-323,180,0,180,KiCad as-is,cathode band = pad 1 (left at 0 deg)
+D13,SMF15CA,D_SOD-123F,0,0,0,KiCad as-is,cathode band = pad 1 (left at 0 deg)
+D20,PESD5V0L1BA,D_SOD-323,180,0,180,KiCad as-is,cathode band = pad 1 (left at 0 deg)
+D21,PESD5V0L1BA,D_SOD-323,0,0,0,KiCad as-is,cathode band = pad 1 (left at 0 deg)
+D22,PESD5V0L1BA,D_SOD-323,90,0,90,KiCad as-is,cathode band = pad 1 (left at 0 deg)
+D23,SMF15CA,D_SOD-123F,0,0,0,KiCad as-is,cathode band = pad 1 (left at 0 deg)
+D30,SMF5.0A,D_SOD-123F,270,0,270,KiCad as-is,cathode band = pad 1 (left at 0 deg)
+D31,RED,LED_0805_2012Metric,0,0,0,KiCad as-is,cathode = pad 1; check the green T/polarity mark
+D32,GREEN,LED_0805_2012Metric,180,0,180,KiCad as-is,cathode = pad 1; check the green T/polarity mark
+J10,RADIO A (JST-GH 10),JST_GH_BM10B-GHS-TBT_1x10-1MP_P1.25mm_Vertical,180,0,180,KiCad as-is,latch side / pin 1
+J11,RADIO B (JST-GH 10),JST_GH_BM10B-GHS-TBT_1x10-1MP_P1.25mm_Vertical,180,0,180,KiCad as-is,latch side / pin 1
+J12,HEADSET (JST-GH 6),JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical,270,0,270,KiCad as-is,latch side / pin 1
+J15,USB-C 5V IN,USB_C_Receptacle_GCT_USB4125-xx-x-0190_6P_TopMnt_Horizontal,180,0,180,KiCad as-is,mechanical - check shell over board edge
+J16,18650 + NTC (Micro-Fit 3.0),Molex_Micro-Fit_3.0_43650-0315_1x03_P3.00mm_Vertical,90,0,90,KiCad as-is,check pin 1
+L1,1.0uH,L_Coilcraft_XAL4020-XXX,180,0,180,KiCad as-is,non-polarized
+SW1,POWER,SW_SPDT_PCM12,180,0,180,KiCad as-is,actuator to board edge
+U1,PCM3168APAPR,HTQFP-64-1EP_10x10mm_P0.5mm_EP8x8mm_Mask4.4x4.4mm_ThermalVias,90,0,90,KiCad as-is,"pin 1 dot, top-left at 0 deg in KiCad"
+U11,TPS61230DRCR,Texas_S-PVSON-N10_ThermalVias,0,0,0,KiCad as-is,pin 1 dot (EP symmetric)
+U12,LM27762DSSR,WSON-12-1EP_3x2mm_P0.5mm_EP1x2.65_ThermalVias,0,0,0,KiCad as-is,pin 1 dot (EP symmetric)
+U15,TUSB321RWBR,Texas_X2QFN-12_1.6x1.6mm_P0.4mm,270,0,270,KiCad as-is,pin 1 mark / chamfer
+U4,OPA1622IDRCR,Texas_S-PVSON-N10,0,0,0,KiCad as-is,pin 1 dot (EP symmetric)
+U5,FE1.1S-BSOP28BCN,SSOP-28_3.9x9.9mm_P0.635mm,0,0,0,KiCad as-is,pin 1 dot
+Y1,12MHz,Crystal_SMD_3225-4Pin_3.2x2.5mm,90,0,90,KiCad as-is,"pin 1 corner; 4-pin, pins 2/4 GND"
+D2,BAV99,SOT-23,90,180,270,table,pin 1 left-bottom (KiCad) - check dot/bevel
+D3,BAV99,SOT-23,90,180,270,table,pin 1 left-bottom (KiCad) - check dot/bevel
+K1,AQY212GS,SOP-4_3.8x4.1mm_P2.54mm,90,270,0,table,"PhotoMOS: pin 1 = LED anode, dot"
+K2,AQY212GS,SOP-4_3.8x4.1mm_P2.54mm,90,270,0,table,"PhotoMOS: pin 1 = LED anode, dot"
+Q1,2N7002,SOT-23,0,180,180,table,pin 1 left-bottom (KiCad) - check dot/bevel
+Q2,2N7002,SOT-23,0,180,180,table,pin 1 left-bottom (KiCad) - check dot/bevel
+Q3,2N7002,SOT-23,0,180,180,table,pin 1 left-bottom (KiCad) - check dot/bevel
+U10,BQ24074RGTR,VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm_ThermalVias,180,270,90,table,pin 1 mark / chamfer
+U13,NCP163ASN500T1G,SOT-23-5,0,180,180,table,pin 1 left-bottom (KiCad) - check dot/bevel
+U14,TLV75533PDBVR,SOT-23-5,0,180,180,table,pin 1 left-bottom (KiCad) - check dot/bevel
+U2,INA217AIDWR,SOIC-16W_7.5x10.3mm_P1.27mm,0,270,270,table,"pin 1 dot, top-left at 0 deg in KiCad"
+U3,OPA1678IDR,SOIC-8_3.9x4.9mm_P1.27mm,0,270,270,table,"pin 1 dot, top-left at 0 deg in KiCad"
+U6,TPS2552DBVR,SOT-23-6,90,180,270,table,pin 1 left-bottom (KiCad) - check dot/bevel
+U7,TPS2552DBVR,SOT-23-6,180,180,0,table,pin 1 left-bottom (KiCad) - check dot/bevel
+U8,USBLC6-2SC6,SOT-23-6,0,180,180,table,pin 1 left-bottom (KiCad) - check dot/bevel
+U9,USBLC6-2SC6,SOT-23-6,0,180,180,table,pin 1 left-bottom (KiCad) - check dot/bevel

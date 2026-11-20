@@ -1,0 +1,13 @@
+Ref,Value,Footprint,KiCad rot,JLC offset,CPL rot,Source,Pin-1 check in JLC preview
+D1,RED,LED_0805_2012Metric,0,0,0,KiCad as-is,cathode = pad 1; check the green T/polarity mark
+D2,RED,LED_0805_2012Metric,0,0,0,KiCad as-is,cathode = pad 1; check the green T/polarity mark
+D3,AMBER,LED_0805_2012Metric,0,0,0,KiCad as-is,cathode = pad 1; check the green T/polarity mark
+ENC1,Radio A volume,RotaryEncoder_Bourns_Vertical_PEC12R-3x17F-Sxxxx,0,0,0,KiCad as-is,check pin 1
+ENC2,Radio A channel,RotaryEncoder_Bourns_Vertical_PEC12R-3x17F-Sxxxx,0,0,0,KiCad as-is,check pin 1
+ENC3,Radio B volume,RotaryEncoder_Bourns_Vertical_PEC12R-3x17F-Sxxxx,0,0,0,KiCad as-is,check pin 1
+ENC4,Radio B channel,RotaryEncoder_Bourns_Vertical_PEC12R-3x17F-Sxxxx,0,0,0,KiCad as-is,check pin 1
+SW1,PTT A,SW_PUSH-12mm,0,0,0,KiCad as-is,check pin 1
+SW2,PTT B,SW_PUSH-12mm,0,0,0,KiCad as-is,check pin 1
+SW3,AUX1,SW_PUSH_6mm,0,0,0,KiCad as-is,check pin 1
+SW4,AUX2,SW_PUSH_6mm,0,0,0,KiCad as-is,check pin 1
+U1,TCA9555PWR,TSSOP-24_4.4x7.8mm_P0.65mm,90,270,0,table,pin 1 dot

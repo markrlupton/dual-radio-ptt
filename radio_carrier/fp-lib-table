@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "radio")(type "KiCad")(uri "${KIPRJMOD}/radio.pretty")(options "")(descr "Project footprints (rev C.2): every footprint used on this board"))
+)

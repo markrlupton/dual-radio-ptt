@@ -1,0 +1,18 @@
+Qty,Designator,Value,Description / MPN,Footprint,LCSC,Fitted,Assembly,Note
+1,C1,100nF,0603 X7R 16V,C_0603_1608Metric,C14663,yes,SMT,U1
+1,C2,10uF,0805 X7R 16V,C_0805_2012Metric,C15850,yes,SMT,Board bulk
+8,"C10,C11,C12,C13,C14,C15,C16,C17",10nF,0603 X7R 16V,C_0603_1608Metric,C57112,yes,SMT,Encoder filter (Bourns filter)
+2,"D1,D2",RED,0805 red LED,LED_0805_2012Metric,C84256,yes,SMT,TX A; TX B
+1,D3,AMBER,NationStar NCD0805O1 (amber/orange 605 nm),LED_0805_2012Metric,C84262,yes,SMT,Bridge
+1,ENC1,Radio A volume,"Bourns PEC12R-4217F-S0024 (17 mm flatted shaft, switch, 24 PPR)",RotaryEncoder_Bourns_Vertical_PEC12R-3x17F-Sxxxx,C49671241,yes,hand-solder,Radio A volume
+1,ENC2,Radio A channel,"Bourns PEC12R-4217F-S0024 (17 mm flatted shaft, switch, 24 PPR)",RotaryEncoder_Bourns_Vertical_PEC12R-3x17F-Sxxxx,C49671241,yes,hand-solder,Radio A channel
+1,ENC3,Radio B volume,"Bourns PEC12R-4217F-S0024 (17 mm flatted shaft, switch, 24 PPR)",RotaryEncoder_Bourns_Vertical_PEC12R-3x17F-Sxxxx,C49671241,yes,hand-solder,Radio B volume
+1,ENC4,Radio B channel,"Bourns PEC12R-4217F-S0024 (17 mm flatted shaft, switch, 24 PPR)",RotaryEncoder_Bourns_Vertical_PEC12R-3x17F-Sxxxx,C49671241,yes,hand-solder,Radio B channel
+1,J1,TO CARRIER (2x8 1.27),2x8 1.27 mm header,PinHeader_2x08_P1.27mm_Vertical,choose,yes,hand-solder,Same pin map as carrier J13
+24,"R1,R2,R3,R4,R5,R6,R7,R8,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25",10k,0603 1% resistor,R_0603_1608Metric,C25804,yes,SMT,Button pull-up; Encoder pull-up (Bourns filter); Encoder series (Bourns filter)
+3,"R30,R31,R32",1k,0603 1% resistor,R_0603_1608Metric,C21190,yes,SMT,LED current
+1,SW1,PTT A,12 mm tactile switch,SW_PUSH-12mm,choose,yes,hand-solder,Radio A PTT
+1,SW2,PTT B,12 mm tactile switch,SW_PUSH-12mm,choose,yes,hand-solder,Radio B PTT
+1,SW3,AUX1,6 mm tactile switch,SW_PUSH_6mm,choose,yes,hand-solder,Spare (e.g. bridge)
+1,SW4,AUX2,6 mm tactile switch,SW_PUSH_6mm,choose,yes,hand-solder,Spare
+1,U1,TCA9555PWR,TI TCA9555PWR,TSSOP-24_4.4x7.8mm_P0.65mm,C465732,yes,SMT,Addr 0x20
